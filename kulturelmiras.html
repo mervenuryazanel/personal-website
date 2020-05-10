@@ -16,112 +16,13 @@
 
    <title>MERVE NUR YAZANEL</title>
   </head>
-  <body>
-        <form  name="Form" action="degerler.php" method="POST" onsubmit="return formuDenetle()"  style="margin-top:50px; margin-left:530px; padding-top:50px;" >
-               Kullancı Adı:
-      
-               <br>
-
-               <input type="text" name="fkadi"style=" width:300px; "placeholder="Kullanıcı adı">
-
-               <br><br>
-              
-    
-                E-mail:
-    
-                <br>
-    
-                <input type="email" name="femail"style=" width:300px;" placeholder="E-mail" >
-    
-                <br><br>
-    
-                Ad Soyad:       
-               <br>      
-                <input type="text" name="fadsoyad"style=" width:300px;" placeholder="Ad Soyad">
-    
-                <br><br>
-    
-                Şifre Girin:
-    
-                <br>
-    
-                <input type="password" name ="fsifre"style=" width:300px;" placeholder="Şifre">
-    
-                <br><br>
-    
-                Telefon :
-    
-                <br>
-    
-                <input type="tel" name="ftelNo" style=" width:300px;" placeholder="Telefon">
-    
-                <br><br>
-    
-                Doğum Tarihi:
-    
-                <br>
-    
-                <input type="date" name="fdogumTarihi" style="width: 300px;">
-    
-                <br><br>
-    
-                Cinsiyet:
-    
-                <br>
-    
-                <select name="fcinsiyet" required>
-    
-                   
-    
-                    <option value="kadin">Kadın</option>
-                    <option value="erkek">Erkek</option>
-    
-                    
-    
-                </select>
-    
-                <br><br>
-    
-                Eğitim Derecesi:
-    
-                <br>
-    
-                <input type="radio" name="fsecenek" value="Önlisans"> Önlisans
-    
-                <input type="radio" name="fsecenek" value="Lisans"> Lisans
-    
-                <input type="radio" name="fsecenek" value="Doktora"> Doktora
-    
-                <br><br>   
-    
-                Yorum:
-    
-                <br>
-    
-                <textarea name="fyorum" rows="10" cols="40" style="width: 300px;"placeholder="..." ></textarea>
-    
-                <br><br>
-    
-               
-                <br>
-    
-                <input type="checkbox" name="fcheck" required> Güvenlik şartlarını okudum ve kabul ediyorum.
-    
-                <br><br>
-    
-                <input type="submit" value="Gönder">
-    
-                <input type="reset" value="Sıfırla">         
-    
-            </form>
-
-            <script src ="main.js"> </script>
+  <body background="images\IMG_20180719_011936.jpg">
     <section id="cover">
           <div class="container">
             <div class="row">
                 
                 <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light ">
-                    <a class="navbar-brand" href="#">SAU CS</a>
+                    <a class="navbar-brand" href="http://cs.sakarya.edu.tr/">SAU CS</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -131,18 +32,12 @@
                         <li class="nav-item active">
                           <a class="nav-link" href="index.html">ANASAYFA <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              HAKKIMDA
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              
-                                    <a class="dropdown-item" href="cv.html">CV</a>
-                              <div class="dropdown-divider"></div>
-                             
-                              <a class="dropdown-item" href="#">MÜZİKLER/FİMLER</a>
-                            </div>
-                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="cv.html">CV<Main></Main></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="ozgecmis.html">ÖZGEÇMİŞ<Main></Main></a>
+                        </li>
                         <li class="nav-item">
                           <a class="nav-link" href="sehrim.html">ŞEHRİM<Main></Main></a>
                         </li>
@@ -152,24 +47,45 @@
                           <li class="nav-item">
                               <a class="nav-link" href="iletisim.HTML">İLETİŞİM</a>
                             </li>
-                        
+                            <li class="nav-item">
+                              <a class="nav-link" href="login.HTML">LOGIN</a>
+                            </li>
                       </ul>
                       <form class="form-inline my-2 my-lg-0">
-                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        
                         </form>
                     </div>
                   </nav>
                 </div> <!--1.row bitis-->
-               
-                   
+       
+
              
                 </div> <!--2.row bitis-->
           </div>
 
-
+    <div >
+       <h1  style="margin-top:80px; margin-left:50px;" > Gevher Nesibe Tıp Tarihi Müzesi</h1>
+      <table style="margin-top:80px; margin-left:50px;">
+        <tr>
+          <td><p style="color:aliceblue"><b></b>Selçuklu Müzesi (Gevher Nesibe Tıp Tarihi Müzesi)
+              “Çifte Medrese” olarak da tanınan Gevher Nesibe Darüşşifası ve Gıyasiye Medresesi, Selçuklu hükümdarlarından II. Kılıçarslan’ın kızı, Gevher Nesibe Sultan’ın vasiyeti üzerine, kardeşi I. Gıyaseddin Keyhüsrev tarafından 1205-1206 yıllarında yaptırılmıştır. Sade mimarisiyle dikkat çeken külliye, Anadolu mimarlık tarihininin günümüze kalan en önemli yapılarındandır.
+              Osmanlı Dönemi’nde kısmen onarılmış olmasına rağmen, harap haldeyken 1960’lardan itibaren başlayan kapsamlı restorasyon çalışmaları yapılmıştır. 1980’li yıllardan itibaren Erciyes Üniversitesi tarafından Tıp Tarihi Müzesi olarak kullanılmıştır. 2012 yılında Çifte Medrese’nin kullanımının Büyükşehir Belediyesine devredilmesiyle Selçuklu Müzesi kurma çalışmaları başlamıştır.
+               
+              Yapıdaki başta çatı olmak üzere küçük onarımlar, müze koleksiyonunun oluşturulması, içeriğinin hazırlanması 2 yıl boyunca yoğun bir biçimde devam etmiştir. Sonunda kent için tarihsel ve imgesel değerinin yanı sıra, yerel ve evrensel kültürel mirasın da önemli bir parçası olan bu anıt eser, Büyükşehir Belediyesi tarafından, Anadolu Selçuklu dünyasını farklı yönleriyle tanıtan bir müzeye dönüştürülerek 21 Şubat 2014 tarihinde hizmete açılmıştır.</b></p></td>
+          <td><img src="images/gevher.jpg"  width="300px" height="200px" style="margin-top:10px; margin-left:20px;"></td>
+        </tr>
+        <tr>
+            <td><img src="images/kayseri-cifte-medrese3.jpg"  width="300px" height="200px" style="margin-top:40px; margin-left:20px;"></td>
+            <td><p style="color:aliceblue"><b></b>Kent tarihinden yola çıkarak Anadolu ortaçağına ve Selçuklu Uygarlığı'na odaklanan müze tematik bir yaklaşımla planlanmıştır. Bir kısmında Selçuklu Medeniyeti ile ilgili uygarlığı ön plana çıkaran müze, diğer kısmı ise şifahiye özelliğini ön plana taşımaktadır.  Selçuklu Uygarlığı ile ilgili olan kısımda; 'Selçuklu Kenti', 'mimarisi', 'sanatı', 'bilimi', 'giysisi' gibi unsurlar ile 'Kayseri'de Selçuklular', 'Anadolu'da Selçuklular' gibi kısımlar yer almaktadır. Şifahiye ile ilgili kısımda ise; 'hastalıklar', 'tedavi yöntemleri ve aletleri', 'bilginler', 'ecza', 'su ve sağlık', 'müzik ile tedavi', 'renk ile tedavi' gibi kısımlar bulunmaktadır.
+ 
+                Müze içerisinde sergilenen Selçuklu ve yakın dönemine eserlerinin yanı sıra, etkileşimli ve teknolojik görsellik içeren alanlar yer almaktadır. Böylece ziyaretçilerimiz; dinleyerek, deneyerek, uygulayarak ve teknolojik aletleri kullanarak Selçuklu Medeniyeti hakkında bilgiler almaktadır. Ayrıca çocukların müzeyi ve Selçuklu'yu sevmesi için çocuk odamızda çizgi filmler ve çeşitli oyunlar bulunmaktadır. Yine müze içerisinde çeşitli konser ve kültürel faaliyetlerin yapılacağı mekanlar bulunmaktadır.</b></p></td>
+          </tr>
+      </table>
+    </div>
         
   </section>
+
+
 
     
        
@@ -180,6 +96,4 @@
  
   </body>
 </html>
-
-
-           
+               
